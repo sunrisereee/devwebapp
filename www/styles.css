@@ -26,7 +26,7 @@ tr, td {
     text-align: center;
 }
 
-.width-img, .button_main {
+.width-img, .textarea_main, .button_main {
     width: 200px;
     height: 200px;
 }
@@ -48,8 +48,8 @@ header{
 
 textarea{
     resize: none;
-    height: calc(100% - 200px);
-    width: 200px;
+    /* height: calc(100% - 200px);
+    width: 200px; */
 }
 
 .align-text{
