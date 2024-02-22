@@ -1,20 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <?php include 'files/head.php'; ?>
 </head>
 <body>
-    <header class="background-color align-text">
-        <div class="wrapper">
-            <h1>Карпейкин Г.С</h1>
-        </div>
-    </header>
+    <?php include 'files/header.php'; ?>
 
     <main>
-        <div class="wrapper">
+        <!-- <div class="wrapper">
             <table id="myTable">
                 <tr>
                     <td><img src="https://wallpapers.com/images/hd/cool-sports-car-mclaren-mp4-2j7tt37wvi6nxifu.jpg" class="width-img"></td>
@@ -33,16 +26,11 @@
             <input type="button" value="Button" class="button_main" id="button_addtext">
             <textarea name="textarea_main" class="textarea_main" id="textarea_main"></textarea>
             </div>
-        </div>
+        </div> -->
+        <?php include 'login-sign-in.php'; ?>
     </main>
 
-    <footer class="background-color align-text">
-        <div class ="wrapper">
-            <h2>
-                Разработка веб-приложений, 2024
-            </h2>
-        </div>
-    </footer>
+    <?php include 'files/footer.php'; ?>
 
     <script>
         function AddString(){
