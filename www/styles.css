@@ -1,0 +1,58 @@
+.background-color {
+    background-color:rgb(206, 255, 165);   
+}
+
+
+table {
+    margin: 0 auto;
+    border-style: double;
+}
+
+tr, td {
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+}
+
+.wrapper{
+    margin: auto;
+    width: 80%;
+}
+
+.flex-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.width-img, .button_main {
+    width: 200px;
+    height: 200px;
+}
+
+body, h1 {
+    margin: 0;
+}
+
+footer{
+    text-align: right;
+    height: 100px;
+    padding: 10px 0;
+}
+
+header{
+    text-align: left;
+    height: 100px;
+}
+
+textarea{
+    resize: none;
+    height: calc(100% - 200px);
+    width: 200px;
+}
+
+.align-text{
+    display: flex;
+    align-items: center;
+}
